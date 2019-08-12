@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Прием оплаты</string>
+    <string name="inputMoneyEdText">Ввод денег</string>
+    <string name="inputInfoEdText">Информация об оплате</string>
+    <string name="btnOkText">OK</string>
+    <string name="bankCardChkBxText">С банковской карты</string>
+    <string name="mobilePhoneChkBxText">С мобильного телефона</string>
+    <string name="cashAddressChkBxText">Наличными по адресу</string>
+    <string name="resultText">Вы выбрали оплатить %1$s р. способом %2$s %3$s</string>
+</resources>
