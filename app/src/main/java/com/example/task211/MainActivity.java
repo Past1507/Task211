@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     CompoundButton.OnCheckedChangeListener checkedChangeListener = new CompoundButton.OnCheckedChangeListener() {
         @Override
         public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            mBtnOk.setEnabled(b);
             if (b) {
                 switch (compoundButton.getId()) {
                     case R.id.bankCardChkBx:
